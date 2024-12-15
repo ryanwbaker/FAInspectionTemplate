@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Standard HTML Elements - High level to low level*/
+/* Containers */
+html,
+body {
+	@apply h-full p-1;
+}
+
+div {
+	@apply rounded-md m-1 p-1;
+}
+
+/* Text */
+h1 {
+	@apply mt-2 top-14 font-bold text-xl;
+}
+
+h2 {
+	@apply font-bold text-lg mt-3;
+}
+
+h3 {
+	@apply font-bold py-0 my-0;
+}
+
+li {
+	@apply p-2;
+}
+
+button {
+	@apply text-white bg-blue-500 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center border-2 border-black;
+}
